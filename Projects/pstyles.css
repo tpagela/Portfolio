@@ -1,0 +1,201 @@
+*{ 
+    padding:0;
+    margin:0;
+}
+
+
+body {
+    background-color: #ffffff                ;
+}
+
+.sidenav {
+    display:grid;
+    height: 100%; 
+    width:40vh;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #52b7fa52       ; 
+    padding-top: 20px;
+  }
+
+.sidenav a {
+  display: flex;
+  justify-content: center;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    color:rgb(146, 136, 136); 
+}
+
+
+
+.bot_sidenav {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:fit-content
+}
+.projects {
+  flex-wrap: wrap;
+  margin-left: 20%;
+  padding: 20px;
+  max-width:100%;
+  display:flex;
+
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.project-left {
+  width: 50%;
+}
+
+.project img {
+  width: 150%;
+
+}
+
+.project-right {
+  width: 70%;
+  padding-left: 20px;
+}
+
+#bot-header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family:Roboto Slab;
+}
+.image_header {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+@font-face {
+  font-family: Roboto Slab;
+  src: url("/imports/RobotoSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Playfair;
+  src: url("/imports/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: IBM;
+  src: url("/imports/IBMPlexSans-Regular.ttf ");
+}
+
+
+.sidenav {
+  grid-area: sidenav;
+}
+
+.projects {
+  grid-area: main-body;
+  gap:24px;
+}
+
+h1 ,h2, p {
+  font-family: IBM;
+}
+.main {
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-template-areas: "sidenav projects";
+}
+
+@-webkit-keyframes hvr-a-top {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  @keyframes hvr-wobble-top {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+  a:hover, a:focus, a:active {
+    -webkit-animation-name: hvr-wobble-top;
+    animation-name: hvr-wobble-top;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
