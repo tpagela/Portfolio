@@ -8,19 +8,19 @@ const projects = [
     {
         id: 2,
         title: 'Weather App',
-        description: 'My first experience working with API\'s. Definitely a fun thing to look back on.',
+        description: 'My weather app pulls live weather data from an API and displays it in an intuitive and user-friendly interface. Users can search for weather in any location and see current temperature, humidity, and wind speed. The app was developed with a focus on functionality and ease of use, making it an ideal tool for anyone seeking real-time weather information."',
         image: '/imports/weather_app.png'
     },
     {
         id: 3,
         title: 'Apex Legends Store Tracker',
-        description: 'I used to play the video game "Apex Legends" a lot. There was a cosmetic on the game that I really wanted to get, but because I didn\'t log in every day it was hard to find out when it was in the shop rotation. So I made this!',
+        description: 'My Apex Legends Store Tracker is a tool for avid players to keep track of the latest in-game store items. It pulls live data from the game\'s API and presents it in an easy-to-use interface, allowing users to quickly see what\'s currently available for purchase. I developed this app to solve my own problem of wanting to keep track of the store rotation while I was actively playing the game.',
         image: '/imports/weather_app.png'
     },
     {
         id: 4,
         title: 'Pokedex',
-        description: 'Always been a big pokemon fan, and wanted to work with their sprites to do something cool',
+        description: 'My Pokedex is a comprehensive Pokemon reference tool for fans of the franchise. It pulls data from an API to showcase the complete collection of Pokemon sprites, including all generations from Kanto to the latest. This app is the perfect companion for Pokemon enthusiasts, providing a visual reference to the beloved creatures and allowing for easy browsing of the entire Pokedex.',
         image: '/imports/Screenshot_144.png'
     }
 ];
