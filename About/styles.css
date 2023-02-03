@@ -60,23 +60,12 @@ a:hover {
     align-items: center;
 }
 
-.intro {
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-.intro h1 {
-  font-size: 3em; 
-  margin-bottom: 0.5em; 
-  font-family: Playfair
-}
-
-.intro p {
-  font-size: 1.5em; 
-  text-align: justify; 
+p {
   font-family: Roboto Slab;
-  grid-column: 1 / 2;
 }
+
+
 
 @font-face {
   font-family: Roboto Slab;
@@ -173,10 +162,39 @@ a:hover {
     animation-iteration-count: 1;
   }
 
-  #home-image {
-    width:70%;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    border-radius: 8%;
-    margin-left:120px;
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me-container, .work-and-life-container, .professional-goals-container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-me-image, .work-and-life-image, .professional-goals-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
   }
