@@ -10,7 +10,7 @@ body {
 .sidenav {
     display:grid;
     height: 100%; 
-    width:40vh;
+    width:20%;
     position: fixed; 
     z-index: 1; 
     top: 0; 
@@ -54,7 +54,6 @@ a:hover {
   font-family:Roboto Slab;
 }
 .image_header {
-
     display:flex;
     justify-content: center;
     align-items: center;
@@ -93,13 +92,6 @@ a:hover {
   padding: 20px;
   max-width:100%;
 }
-
-
-
-
-
-
-
 
 @-webkit-keyframes hvr-a-top {
     16.65% {
@@ -179,4 +171,66 @@ a:hover {
     grid-row: 2 / 3;
     border-radius: 8%;
     margin-left:120px;
+  }
+
+  #menu {
+    display:none;
+  }
+
+  
+  @media (max-width: 800px) {
+
+    .sidenav {
+      display: grid;
+      width: 100%;
+      height: 60px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #52b7fa52;
+      padding: 20px;
+      }
+
+      .image_header {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      #whale {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+      }
+      
+      #menu {
+        display: flex;
+        align-items: center;
+        margin-right: 10%;
+        width: 5%;
+      }
+  
+      .links {
+        display:none !important;
+      }
+
+      .bot_sidenav {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height:fit-content
+      }
+    
+      #bot-header {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-family:Roboto Slab;
+      }
+
+      #bot-text {
+        display:none;
+      }
+    
   }
