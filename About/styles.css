@@ -61,13 +61,9 @@ a:hover {
 }
 
 
-<<<<<<< HEAD
 p {
   font-family: Roboto Slab;
 }
-=======
-
->>>>>>> ea31fd162c38e2627042954b6f1934c75141d489
 
 
 
@@ -184,13 +180,8 @@ p {
   }
   
   .about-me-image, .work-and-life-image, .professional-goals-image {
-<<<<<<< HEAD
     width: 250px;
     height: 250px;
-=======
-    width: 200px;
-    height: 200px;
->>>>>>> ea31fd162c38e2627042954b6f1934c75141d489
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
