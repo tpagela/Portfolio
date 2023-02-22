@@ -171,6 +171,7 @@ a:hover {
     grid-row: 2 / 3;
     border-radius: 8%;
     margin-left:120px;
+<<<<<<< HEAD
   }
 
   #menu {
@@ -241,4 +242,6 @@ a:hover {
         display:none;
       }
     
+=======
+>>>>>>> ea31fd162c38e2627042954b6f1934c75141d489
   }

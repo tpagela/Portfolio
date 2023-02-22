@@ -9,19 +9,31 @@ const projects = [
         id: 2,
         title: 'Weather App',
         description: 'My weather app pulls live weather data from an API and displays it in an intuitive and user-friendly interface. Users can search for weather in any location and see current temperature, humidity, and wind speed. The app was developed with a focus on functionality and ease of use, making it an ideal tool for anyone seeking real-time weather information."',
+<<<<<<< HEAD
         image: '/imports/rain.png'
+=======
+        image: '/imports/weather_app.png'
+>>>>>>> ea31fd162c38e2627042954b6f1934c75141d489
     },
     {
         id: 3,
         title: 'Apex Legends Store Tracker',
         description: 'My Apex Legends Store Tracker is a tool for avid players to keep track of the latest in-game store items. It pulls live data from the game\'s API and presents it in an easy-to-use interface, allowing users to quickly see what\'s currently available for purchase. I developed this app to solve my own problem of wanting to keep track of the store rotation while I was actively playing the game.',
+<<<<<<< HEAD
         image: '/imports/game.png'
+=======
+        image: '/imports/weather_app.png'
+>>>>>>> ea31fd162c38e2627042954b6f1934c75141d489
     },
     {
         id: 4,
         title: 'Pokedex',
         description: 'My Pokedex is a comprehensive Pokemon reference tool for fans of the franchise. It pulls data from an API to showcase the complete collection of Pokemon sprites, including all generations from Kanto to the latest. This app is the perfect companion for Pokemon enthusiasts, providing a visual reference to the beloved creatures and allowing for easy browsing of the entire Pokedex.',
+<<<<<<< HEAD
         image: '/imports/pokeball.png'
+=======
+        image: '/imports/Screenshot_144.png'
+>>>>>>> ea31fd162c38e2627042954b6f1934c75141d489
     }
 ];
 
